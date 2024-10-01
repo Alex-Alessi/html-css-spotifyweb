@@ -1,0 +1,65 @@
+/* # RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* # UTILS */
+
+.container {
+  display: flex;
+  height: 900px;
+}
+
+.player {
+  max-width: 100%;
+  background-color: hsl(0deg 0% 15.69%);
+  height: 100px;
+}
+
+.small-col {
+  background-color: hsl(0deg 0% 0%);
+  width: 20%;
+  height: 900px;
+  /* margin-left: -10px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.big-col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.head-big-col {
+  background-color: hsl(217.5deg 25% 6.27%);
+  max-width: 100%;
+  height: 100px;
+}
+
+.main-big-col {
+  display: flex;
+  background-color: #1c1c2c;
+  flex: 1 1 100%;
+}
