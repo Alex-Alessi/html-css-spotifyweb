@@ -37,13 +37,37 @@ ul {
   height: 100px;
 }
 
+/* SMALL COLUMN */
 .small-col {
   background-color: hsl(0deg 0% 0%);
-  width: 20%;
+  width: 10%;
   height: 900px;
   /* margin-left: -10px; */
   display: flex;
   flex-direction: column;
+}
+
+.logo-spotify {
+  padding: 20px 10px;
+}
+
+.house {
+  padding: 0px 10px;
+}
+
+.lente {
+  width: 24px;
+  padding: 10px 0 10px;
+  margin-left: 10px;
+}
+
+.librerie {
+  width: 24px;
+  padding: 0 0 10px;
+  margin-left: 12px;
+}
+
+.profile {
 }
 
 .big-col {
@@ -55,7 +79,7 @@ ul {
 .head-big-col {
   background-color: hsl(217.5deg 25% 6.27%);
   max-width: 100%;
-  height: 100px;
+  height: 90px;
 }
 
 .main-big-col {
