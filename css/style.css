@@ -68,6 +68,24 @@ ul {
 }
 
 .profile {
+  width: 42px;
+}
+
+.cerchio {
+  margin-top: auto;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: hsl(0deg 0% 50.2%);
+  border-radius: 53%;
+  overflow: hidden;
+}
+
+.download {
+  margin-top: 652px;
+  margin-left: 14px;
+  width: 19px;
 }
 
 .big-col {
