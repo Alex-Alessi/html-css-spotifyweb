@@ -12,7 +12,7 @@ body {
 
 img {
   max-width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 a {
@@ -47,34 +47,54 @@ ul {
   flex-direction: column;
 }
 
+.small-col > .user {
+  margin-top: auto;
+}
+
 .logo-spotify {
-  padding: 20px 10px;
-}
-
-.house {
-  padding: 0px 10px;
-}
-
-.lente {
-  width: 24px;
-  padding: 10px 0 10px;
+  width: 58%;
+  padding: 18px 0px;
+  max-width: 40px;
   margin-left: 10px;
+  margin-bottom: 0.2rem;
 }
 
-.librerie {
-  width: 24px;
-  padding: 0 0 10px;
-  margin-left: 12px;
+.small-col > .list-icons > .icon {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.small-col > .list-icons a {
+  display: inline-block;
+  width: 100%;
+  line-height: 40px;
+}
+
+.small-col > .list-icons li img,
+.small-col > .list-icons li span {
+  vertical-align: middle;
+}
+
+.list-icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: -11px;
+  margin-left: 9px;
+  color: white;
+}
+
+.playlist-list {
+  overflow-y: auto;
+  min-height: 100px;
+  color: white;
+  height: 300px;
 }
 
 .profile {
   width: 42px;
 }
 
-.cerchio {
-  margin-top: auto;
-  margin-bottom: 10px;
-  margin-left: 8px;
+.user {
   width: 30px;
   height: 30px;
   background-color: hsl(0deg 0% 50.2%);
@@ -83,7 +103,7 @@ ul {
 }
 
 .download {
-  margin-top: 652px;
+  margin-top: 667px;
   margin-left: 14px;
   width: 19px;
 }
@@ -104,4 +124,123 @@ ul {
   display: flex;
   background-color: #1c1c2c;
   flex: 1 1 100%;
+}
+
+/**************************************************
+**                    UTILS                      **
+**************************************************/
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+/**************************************************
+**             MEDIA PHONE - SM                  **
+**************************************************/
+
+@media all and (min-width: 576px) {
+  .small-col {
+    width: 250px;
+  }
+
+  /**************************************************
+  **                    UTILS                      **
+  **************************************************/
+
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-flex {
+    display: flex;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+
+  .d-sm-inline-block {
+    display: inline-block;
+  }
+
+  .d-sm-inline {
+    display: inline;
+    vertical-align: middle;
+  }
+}
+
+/**************************************************
+**             MEDIA  TABLET - MD                  **
+**************************************************/
+
+@media all and (min-width: 768px) {
+  /**************************************************
+  **                    UTILS                      **
+  **************************************************/
+
+  .d-md-none {
+    display: none;
+  }
+
+  .d-md-flex {
+    display: flex;
+  }
+
+  .d-md-block {
+    display: block;
+  }
+
+  .d-md-inline-block {
+    display: inline-block;
+  }
+
+  .d-md-inline {
+    display: inline;
+  }
+}
+
+/**************************************************
+**             MEDIA DESKTOP - LG                  **
+**************************************************/
+
+@media all and (min-width: 992px) {
+  /**************************************************
+  **                    UTILS                      **
+  **************************************************/
+
+  .d-lg-none {
+    display: none;
+  }
+
+  .d-lg-flex {
+    display: flex;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+
+  .d-lg-inline-block {
+    display: inline-block;
+  }
+
+  .d-lg-inline {
+    display: inline;
+  }
 }

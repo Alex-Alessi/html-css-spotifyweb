@@ -17,13 +17,44 @@
   <body>
     <main class="container">
       <nav class="small-col">
-        <img class="logo-spotify" src="./img/logo-small.svg" />
-        <img class="house" src="./img/home.svg" />
-        <img class="lente" src="./img/search.svg" />
-        <img class="librerie" src="./img/libreria.svg" />
+        <div class="logo-spotify">
+          <img src="./img/logo-small.svg" class="d-sm-none" />
+          <img src="./img/logo.svg" class="d-none d-sm-block" />
+        </div>
+        <nav class="list-icons">
+          <ul>
+            <li>
+              <a href="#">
+                <img class="icon" src="./img/home.svg" />
+                <span class="d-none d-sm-inline">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="icon d-inline-block" src="./img/search.svg" />
+                <span class="d-none d-sm-inline">Cerca</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="icon d-inline-block" src="./img/libreria.svg" />
+                <span class="d-none d-sm-inline">La tua libreria</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="playlist-add d-none d-sm-block"></div>
+        <div class="playlist-list d-none d-sm-block">
+          playlist<br />
+          item<br />
+          item<br />
+          item<br />
+          item<br />
+          item<br />
+        </div>
         <img class="download" src="./img/download.svg" />
-        <div class="cerchio">
-          <img class="profile" src="./img/profile.svg" />
+        <div class="user">
+          <img class="proflie" src="./img/proflie.svg" />
         </div>
       </nav>
       <div class="big-col">
