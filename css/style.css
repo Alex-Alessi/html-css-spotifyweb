@@ -38,7 +38,7 @@ ul {
 /* SMALL COLUMN */
 .small-col {
   background-color: hsl(0deg 0% 0%);
-  width: 10%;
+  width: 60px;
   height: 900px;
   /* margin-left: -10px; */
   display: flex;
@@ -46,7 +46,19 @@ ul {
 }
 
 .logo-spotify {
-  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.logo-scritta {
+  display: none;
+}
+
+.logo {
+  width: 38px;
 }
 
 .house {
@@ -109,6 +121,17 @@ ul {
 **************************************************/
 
 @media all and (min-width: 576px) {
+  .logo-scritta {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .small-col {
+    width: 150px;
+  }
 }
 
 /**************************************************
