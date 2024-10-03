@@ -170,6 +170,10 @@ ul {
   column-gap: 10px;
 }
 
+.utente .scritte {
+  display: none;
+}
+
 /**************************************************
 **                   BIG-COL                   **
 **************************************************/
@@ -220,6 +224,10 @@ ul {
   }
 
   .playlists {
+    display: flex;
+  }
+
+  .utente .scritte {
     display: flex;
   }
 }
