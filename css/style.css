@@ -238,8 +238,19 @@ ul {
   transform: translate(50%, -50%);
 }
 
-.player > img {
+.player > .current-song > img {
   width: 30px;
+  margin-left: 9px;
+}
+
+.current-song {
+  display: flex;
+  gap: 10px;
+}
+
+.player > .current-song > .scritta-icon {
+  display: flex;
+  vertical-align: baseline;
 }
 /**************************************************
 **             MEDIA PHONE - SM                  **
