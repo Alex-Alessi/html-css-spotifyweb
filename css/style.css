@@ -97,7 +97,7 @@ ul {
 }
 
 .cerchio {
-  margin-top: auto;
+  /* margin-top: auto; */
   margin-bottom: 10px;
   margin-left: 8px;
   width: 30px;
@@ -141,6 +141,38 @@ ul {
   align-items: center;
   gap: 10px;
 }
+
+.installer {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 6px;
+}
+
+.bar {
+  background-color: gray;
+  height: 0.5px;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 19px;
+}
+
+.bottom-small-col {
+  margin-top: auto;
+}
+
+.scritte {
+  color: white;
+}
+
+.utente {
+  display: flex;
+  align-items: normal;
+  column-gap: 10px;
+}
+
+/**************************************************
+**                   BIG-COL                   **
+**************************************************/
 
 .head-big-col {
   background-color: hsl(217.5deg 25% 6.27%);
