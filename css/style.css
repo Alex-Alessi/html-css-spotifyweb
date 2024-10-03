@@ -122,10 +122,24 @@ ul {
 
 .crea-playlist {
   display: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  margin-left: 7px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .playlists {
   display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-playlist {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .head-big-col {
@@ -170,11 +184,11 @@ ul {
   }
 
   .crea-playlist {
-    display: block;
+    display: flex;
   }
 
   .playlists {
-    display: block;
+    display: flex;
   }
 }
 
